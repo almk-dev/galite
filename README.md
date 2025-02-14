@@ -1,26 +1,28 @@
 # galite
 Modified version of the GalliumV2 keyboard layout
 
+##### ortholinear
 ```
 b l d w z j f o u ; \
 n r t s g y h a e i '
 x q m c v k p , . /
 ```
+##### row-staggered
 ```
 b l d w z j f o u ; [ ] \
  n r t s g y h a e i '
   x q m c v k p , . /
 ```
 ## changes
-This layout is a combination of [GalliumV2](https://github.com/GalileoBlues/Gallium), [Graphite](https://github.com/rdavison/graphite-layout), and [Colemak](https://colemak.com/)[[DH](https://colemakmods.github.io/mod-dh/)].
+This layout is a combination of [GalliumV2](https://github.com/GalileoBlues/Gallium), [Graphite](https://github.com/rdavison/graphite-layout), and [Colemak](https://colemak.com/)[-[DH](https://colemakmods.github.io/mod-dh/)].
 
 I wanted to accomplish the following:
-- Retain the core layout for GalliumV2
-- Have the same layout for both row-staggered and ortholinear keyboards
-- Retain the same performance/stats as base GalliumV2 (disregarding punctuation)
+- Retain the core layout of GalliumV2
+- Have the same configuration for both row-staggered and ortholinear layouts
+- Match the performance/stats of base GalliumV2 (disregarding punctuation)
 - Simplify punctuation keys to be more "standard" and easy to switch from Colemak-DH/QWERTY
 - Modify the left-hand side to prefer "extend" motions for middle/ring fingers and "curl" motions for pinky/index fingers:
-  - This can't reasonably accomplished for the pinky finger without negatively affecting SFT and scissor metrics
+  - This can't reasonably accomplished for the pinky finger without negatively affecting SBFs and pinky/scissor metrics
   - This is already the case for the middle/ring fingers
   - This is accomplished for the index finger by swapping `CV`/`WZ`, since the frequency(C) + frequency(V) is greater than the frequency(W) + frequency(Z)`
 - Have a less extreme top:bottom row usage ratio for the left-hand side than base Gallium
