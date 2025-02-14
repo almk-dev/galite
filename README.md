@@ -1,5 +1,5 @@
 # galite
-Modified version of the Gallium keyboard layout
+Modified version of the GalliumV2 keyboard layout
 
 ```
 b l d w z j f o u ; \
