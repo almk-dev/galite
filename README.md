@@ -24,9 +24,9 @@ I wanted to accomplish the following:
 - Modify the left-hand side to prefer "extend" motions for middle/ring fingers and "curl" motions for pinky/index fingers:
   - This can't reasonably accomplished for the pinky finger without negatively affecting SBFs and pinky/scissor metrics
   - This is already the case for the middle/ring fingers
-  - This is accomplished for the index finger by swapping `CV`/`WZ`, since the frequency(C) + frequency(V) is greater than the frequency(W) + frequency(Z)`
+  - This is accomplished for the index finger by swapping `CV`/`WZ`, since the frequency(C) + frequency(V) is greater than the frequency(W) + frequency(Z)
 - Have a less extreme top:bottom row usage ratio for the left-hand side than base Gallium
-  - This is accomplished by swapping `CV`/`WZ`, since the frequency(C) + frequency(V) is greater than the frequency(W) + frequency(Z)`
+  - This is accomplished by swapping `CV`/`WZ`, since the frequency(C) + frequency(V) is greater than the frequency(W) + frequency(Z)
     - This brings the top:bottom ratio down from 2.85:1 to 1.91:1
    
 ## stats
