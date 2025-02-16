@@ -1,7 +1,7 @@
 # galite
 Modified version of the GalliumV2 keyboard layout
 
-##### ortholinear
+##### column-staggered
 ```
 b l d w z j f o u ; \
 n r t s g y h a e i '
